@@ -1,0 +1,93 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+@import "~@mdi/font/css/materialdesignicons.css";
+// @import '~vuetify/dist/vuetify.min.css';
+
+@import "~@fullcalendar/core/main.css";
+@import "~@fullcalendar/daygrid/main.css";
+
+* {
+    font-family: "Nunito", sans-serif;
+    // font-size: 1rem;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.takenup,
+.created {
+    color: blueviolet;
+}
+.defer {
+    color: indianred;
+}
+.archive {
+    color: forestgreen;
+}
+
+.bg-ovl {
+    background: #8053d28c;
+}
+.table:hover tbody .bg-ovl-light:hover {
+    background: #8053d28c;
+}
+.bg-ovl-light {
+    background: #a07dde4d;
+}
+
+.bg-opal {
+    background: #bb1516bd;
+}
+.table:hover tbody .bg-opal-light:hover {
+    background: #bb1516bd;
+}
+.bg-opal-light {
+    background: #d4615e75;
+}
+
+.bg-mrpl {
+    background: #28902dbf;
+}
+.table:hover tbody .bg-mrpl-light:hover {
+    background: #28902dbf;
+}
+.bg-mrpl-light {
+    background: #61a9606e;
+}
+
+.bg-otpc {
+    background: #f57c01bf;
+}
+.table:hover tbody .bg-otpc-light:hover {
+    background: #f57c01bf;
+}
+.bg-otpc-light {
+    background: #f79c5794;
+}
+
+.bg-ompl {
+    background: #28902dbf;
+}
+.table:hover tbody .bg-ompl-light:hover {
+    background: #28902dbf;
+}
+.bg-ompl-light {
+    background: #61a9606e;
+}
+
+.bg-msez {
+    background: #28902dbf;
+}
+.table:hover tbody .bg-msez-light:hover {
+    background: #28902dbf;
+}
+.bg-msez-light {
+    background: #61a9606e;
+}
